@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 import ProductItem from "./ProductItem";
 import Card from "../Shared/Card";
 import { ToastContainer } from "react-toastify";
-import successMessage from "../../hooks/successMessage";
+import message from "../../utils/message";
 
 const Products = () => {
 	const products = useSelector(state => state.products.products);
@@ -20,7 +20,7 @@ const Products = () => {
 							imageUrl={prod.imageUrl}
 							price={prod.price}
 							id={prod.id}
-							message={successMessage}
+							message={message}
 						/>
 					);
 				})}

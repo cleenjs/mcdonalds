@@ -2,7 +2,7 @@ import React from "react";
 
 // Components
 import Header from "../Shared/Header";
-import Cart from "../Cart/Cart";
+import CartIcon from "../Shared/CartIcon";
 
 const HeaderTitle = () => {
 	return (
@@ -12,7 +12,7 @@ const HeaderTitle = () => {
 					<h1>Food shop</h1>
 				</div>
 			</div>
-			<Cart />
+			<CartIcon />
 		</Header>
 	);
 };

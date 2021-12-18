@@ -8,7 +8,7 @@ const ProductItem = ({ name, imageUrl, price, id, message }) => {
 	const dispatch = useDispatch();
 
 	const addToCartHandler = () => {
-		message(`${name} successfully added to the cart!`);
+		message("success", `${name} successfully added to the cart!`);
 		dispatch(
 			cartActions.addItemToCart({
 				id,

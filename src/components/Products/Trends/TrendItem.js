@@ -13,7 +13,7 @@ const TrendItem = ({ id, name, price, imageUrl, message }) => {
 				imageUrl,
 			})
 		);
-		message(`${name} successfully added to cart!`);
+		message("success", `${name} successfully added to cart!`);
 	};
 
 	return (
@@ -21,7 +21,7 @@ const TrendItem = ({ id, name, price, imageUrl, message }) => {
 			<div className="product">
 				<i onClick={addToCartHandler} className="fas fa-shopping-bag icon"></i>
 				<div className="product-img text-center">
-					<img src={imageUrl} className="w-100" />
+					<img src={imageUrl} className="w-100" alt={name} />
 				</div>
 				<h2 className="product-name py-2">{name}</h2>
 				<p className="product-price">${price}</p>

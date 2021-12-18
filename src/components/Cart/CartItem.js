@@ -8,7 +8,7 @@ const CartItem = ({ id, name, price, imageUrl, quantity, message }) => {
 
 	const removeItemHandler = () => {
 		dispatch(cartActions.removeItemFromCart(id));
-		message(`${name} quantity decreased!`);
+		message("success", `${name} quantity decreased!`);
 	};
 
 	const addItemHandler = () => {
@@ -20,7 +20,7 @@ const CartItem = ({ id, name, price, imageUrl, quantity, message }) => {
 				imageUrl,
 			})
 		);
-		message(`${name} quantity increased!`);
+		message("success", `${name} quantity increased!`);
 	};
 
 	const totalPrice = price * quantity;

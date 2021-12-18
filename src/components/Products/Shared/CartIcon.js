@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
-import "./Css/Cart.css";
+import "./Css/CartIcon.css";
 
-const Cart = () => {
+const CartIcon = () => {
 	const cartQuantity = useSelector(state => state.cart.totalQuantity);
 
 	return (
@@ -24,4 +24,4 @@ const Cart = () => {
 	);
 };
 
-export default Cart;
+export default CartIcon;

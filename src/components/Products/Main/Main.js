@@ -4,14 +4,14 @@ import React from "react";
 import Header from "../Header/Header";
 import Categories from "../Categories/Categories";
 import Trends from "../Trends/Trends";
-import Products from "../Products/Products";
+import ProductList from "../ProductList/ProductList";
 
 const Main = () => {
 	return (
 		<>
 			<Header />
 			<Categories />
-			<Products />
+			<ProductList />
 			<Trends />
 		</>
 	);

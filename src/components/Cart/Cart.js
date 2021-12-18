@@ -5,7 +5,7 @@ import CartItem from "./CartItem";
 import Checkout from "../Orders/Checkout/Checkout";
 
 import { ToastContainer } from "react-toastify";
-import successMessage from "../hooks/successMessage";
+import message from "../utils/message";
 
 import "./Css/Cart.css";
 
@@ -25,7 +25,7 @@ const Cart = () => {
 							price={item.price}
 							quantity={item.quantity}
 							totalPrice={item.totalPrice}
-							message={successMessage}
+							message={message}
 						/>
 					);
 				})}

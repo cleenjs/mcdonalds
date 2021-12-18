@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 import Container from "../Shared/Container";
 import Trend from "./TrendTitle";
 import TrendItem from "./TrendItem";
-import successMessage from "../../hooks/successMessage";
+import message from "../../utils/message";
 
 const Trends = () => {
 	const trends = useSelector(state => state.trends.trends);
@@ -19,7 +19,7 @@ const Trends = () => {
 							price={tr.price}
 							id={tr.id}
 							key={tr.id}
-							message={successMessage}
+							message={message}
 						/>
 					);
 				})}

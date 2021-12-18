@@ -6,6 +6,8 @@ import { useSelector } from "react-redux";
 
 import "./Css/CategoryItem.css";
 
+const allCategoryId = 6;
+
 const CategoryItem = ({ name, id }) => {
 	const dispatch = useDispatch();
 
@@ -22,7 +24,7 @@ const CategoryItem = ({ name, id }) => {
 
 	return (
 		<>
-			{id === 6 ? (
+			{id === allCategoryId ? (
 				<li className={`${selectedCategory} list category`}>{name}</li>
 			) : (
 				<li

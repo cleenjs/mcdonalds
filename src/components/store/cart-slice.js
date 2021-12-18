@@ -2,10 +2,10 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const cartFromLocalStorage = JSON.parse(localStorage.getItem("cart") || "[]");
 const totalQuantityFromLocalStorage = JSON.parse(
-	localStorage.getItem("totalQuantity") || "[]"
+	localStorage.getItem("totalQuantity") || 0
 );
 const totalPriceFromLocalStorage = JSON.parse(
-	localStorage.getItem("totalPrice") || "[]"
+	localStorage.getItem("totalPrice") || 0
 );
 
 const couponFromLocalStorage = JSON.parse(
@@ -63,7 +63,7 @@ const cartSlice = createSlice({
 			) {
 				// localStorage.setItem("coupon", JSON.stringify(true));
 				state.coupon.activatedCoupon = !state.coupon.activatedCoupon;
-				state.totalPrice -= 1;
+				state.totalPrice -= state.coupon.value;
 			}
 		},
 	},

@@ -1,8 +1,8 @@
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-const successMessage = message => {
-	return toast.success(message, {
+const message = (type, msg) => {
+	return toast[type](msg, {
 		position: "top-right",
 		autoClose: 2000,
 		hideProgressBar: false,
@@ -13,4 +13,4 @@ const successMessage = message => {
 	});
 };
 
-export default successMessage;
+export default message;

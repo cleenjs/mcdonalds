@@ -4,18 +4,20 @@ import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import { cartActions } from "../../store/cart-slice";
 
-import errorMessage from "../../hooks/errorMessage";
-import successMessage from "../../hooks/successMessage";
+import message from "../../utils/message";
 import "./Css/Checkout.css";
+
+const shippingCost = 2;
 
 const Checkout = () => {
 	const dispatch = useDispatch();
+
 	const [couponCodeName, setCouponCodeName] = useState("");
 
 	const changeCouponCode = e => setCouponCodeName(e.target.value);
 	const productsTotalPrice = useSelector(state => state.cart.totalPrice);
 	const productItems = useSelector(state => state.cart.items);
-	const finalPrice = useSelector(state => state.cart.totalPrice) + 2;
+	const finalPrice = useSelector(state => state.cart.totalPrice) + shippingCost;
 
 	const coupon = useSelector(state => state.cart.coupon);
 	const couponUsage = coupon.activatedCoupon;
@@ -24,14 +26,14 @@ const Checkout = () => {
 
 	const addCouponCode = () => {
 		if (couponUsage === false && couponName === couponCodeName) {
-			successMessage("Coupon code is successfully used!");
+			message("success", "Coupon code is successfully used!");
 			dispatch(
 				cartActions.addCouponCode({
 					coupon: "mc",
 				})
 			);
 		} else {
-			errorMessage("Coupon is already used or wrong coupon name!");
+			message("error", "Coupon is already used or wrong coupon name!");
 		}
 	};
 
@@ -41,6 +43,7 @@ const Checkout = () => {
 			productsPrice: productsTotalPrice.toFixed(2),
 			finalPrice: finalPrice.toFixed(2),
 		};
+
 		console.log(request);
 	};
 

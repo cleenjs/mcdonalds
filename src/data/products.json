@@ -1,0 +1,258 @@
+[
+	{
+		"id": 1,
+		"name": "McChicken™",
+		"price": 4.3,
+		"imageUrl": "images/burgers/McChicken.webp",
+		"categoryId": 1,
+		"trend": 0
+	},
+	{
+		"id": 2,
+		"name": "Big Tasty™",
+		"price": 3.9,
+		"imageUrl": "images/burgers/Big_Tasty.webp",
+		"categoryId": 1,
+		"trend": 0
+	},
+	{
+		"id": 3,
+		"name": "Fresh Deluxe",
+		"price": 3.9,
+		"imageUrl": "images/burgers/Royal_Deluxe.webp",
+		"categoryId": 1,
+		"trend": 0
+	},
+	{
+		"id": 4,
+		"name": "Big Mac™",
+		"price": 3.9,
+		"imageUrl": "images/burgers/Big_Mac.webp",
+		"categoryId": 1,
+		"trend": 0
+	},
+	{
+		"id": 5,
+		"name": "Double Cheeseburger",
+		"price": 3.9,
+		"imageUrl": "images/burgers/Dublu_cheeseburger.webp",
+		"categoryId": 1,
+		"trend": 0
+	},
+	{
+		"id": 6,
+		"name": "Cheeseburger",
+		"price": 3.9,
+		"imageUrl": "images/burgers/Cheeseburger.webp",
+		"categoryId": 1,
+		"trend": 0
+	},
+	{
+		"id": 7,
+		"name": "Bon Beef",
+		"price": 3.9,
+		"imageUrl": "images/burgers/beef.webp",
+		"categoryId": 1,
+		"trend": 0
+	},
+	{
+		"id": 8,
+		"name": "McToast",
+		"price": 3.9,
+		"imageUrl": "images/breakfast/McToast.webp",
+		"categoryId": 2,
+		"trend": 0
+	},
+	{
+		"id": 9,
+		"name": "Sausage McMuffin® with Egg",
+		"price": 3.9,
+		"imageUrl": "images/breakfast/Bacon_McMuffin.webp",
+		"categoryId": 2,
+		"trend": 0
+	},
+	{
+		"id": 10,
+		"name": "Big Breakfast®",
+		"price": 3.9,
+		"imageUrl": "images/breakfast/Big_Breakfast.webp",
+		"categoryId": 2,
+		"trend": 0
+	},
+	{
+		"id": 11,
+		"name": "Egg McMuffin®",
+		"price": 3.9,
+		"imageUrl": "images/breakfast/Cheese-McMuffinegg.webp",
+		"categoryId": 2,
+		"trend": 0
+	},
+	{
+		"id": 12,
+		"name": "Chicken Chic",
+		"price": 3.9,
+		"imageUrl": "images/chicken/chicken.webp",
+		"categoryId": 3,
+		"trend": 0
+	},
+	{
+		"id": 13,
+		"name": "Chicken Grill",
+		"price": 3.9,
+		"imageUrl": "images/chicken/Chicken_grill.webp",
+		"categoryId": 3,
+		"trend": 0
+	},
+	{
+		"id": 14,
+		"name": "Chicken McNuggets™",
+		"price": 3.9,
+		"imageUrl": "images/chicken/McNuggets.webp",
+		"categoryId": 3,
+		"trend": 0
+	},
+	{
+		"id": 15,
+		"name": "Supreme Chicken Tenders",
+		"price": 3.9,
+		"imageUrl": "images/chicken/supreme.webp",
+		"categoryId": 3,
+		"trend": 0
+	},
+	{
+		"id": 16,
+		"name": "McChicken™",
+		"price": 3.9,
+		"imageUrl": "images/burgers/McChicken.webp",
+		"categoryId": 3,
+		"trend": 0
+	},
+	{
+		"id": 17,
+		"name": "McChickenHot™",
+		"price": 3.9,
+		"imageUrl": "images/chicken/chicken_legs.webp",
+		"categoryId": 3,
+		"trend": 0
+	},
+	{
+		"id": 18,
+		"name": "Big Mac® Combo Meal",
+		"price": 3.9,
+		"imageUrl": "images/combo/Meniu_Big_Mac.webp",
+		"categoryId": 4,
+		"trend": 0
+	},
+	{
+		"id": 19,
+		"name": "Quarter Pounder®* with Cheese Meal",
+		"price": 3.9,
+		"imageUrl": "images/combo/Meniu_McChicken.webp",
+		"categoryId": 4,
+		"trend": 0
+	},
+	{
+		"id": 20,
+		"name": "Cheeseburger Combo Meal",
+		"price": 3.9,
+		"imageUrl": "images/combo/Meniu_Dublu_Cheeseburger.webp",
+		"categoryId": 4,
+		"trend": 0
+	},
+	{
+		"id": 21,
+		"name": "Chicken Grill Combo Meal",
+		"price": 3.9,
+		"imageUrl": "images/combo/Meniu_ChickenGrill.webp",
+		"categoryId": 4,
+		"trend": 0
+	},
+	{
+		"id": 22,
+		"name": "Tasty™ Combo Meal",
+		"price": 3.9,
+		"imageUrl": "images/combo/Meniu_Big_Tasty.webp",
+		"categoryId": 4,
+		"trend": 0
+	},
+	{
+		"id": 23,
+		"name": "Fresh Deluxe™ Combo Meal",
+		"price": 3.9,
+		"imageUrl": "images/combo/Meniu_Royal_Deluxe.webp",
+		"categoryId": 4,
+		"trend": 0
+	},
+	{
+		"id": 24,
+		"name": "Filet-O-Fish™ Combo Meal",
+		"price": 3.9,
+		"imageUrl": "images/combo/Meniu_Filet-O-Fish.webp",
+		"categoryId": 4,
+		"trend": 0
+	},
+	{
+		"id": 25,
+		"name": "Chicken McNuggets™ Combo Meal",
+		"price": 3.9,
+		"imageUrl": "images/combo/Meniu_Chicken_McNuggets_6.webp",
+		"categoryId": 4,
+		"trend": 0
+	},
+	{
+		"id": 26,
+		"name": "McFlurry Kit Kat - Caramel",
+		"price": 3.9,
+		"imageUrl": "images/desserts/McFlurry_KitKat_Caramel.webp",
+		"categoryId": 5,
+		"trend": 0
+	},
+	{
+		"id": 27,
+		"name": "McFlurry Kit Kat - Chocolate",
+		"price": 3.9,
+		"imageUrl": "images/desserts/McFlurry_KK_Ciocolata.webp",
+		"categoryId": 5,
+		"trend": 0
+	},
+	{
+		"id": 28,
+		"name": "McFlurry Oreo - Caramel",
+		"price": 3.9,
+		"imageUrl": "images/desserts/McFlurry_Oreo_Caramel.webp",
+		"categoryId": 5,
+		"trend": 0
+	},
+	{
+		"id": 29,
+		"name": "McFlurry Oreo - Chocolate",
+		"price": 3.9,
+		"imageUrl": "images/desserts/McFlurry_Oreo_Ciocolata.webp",
+		"categoryId": 5,
+		"trend": 0
+	},
+	{
+		"id": 30,
+		"name": "Cheesecake bites",
+		"price": 3.9,
+		"imageUrl": "images/desserts/bites.webp",
+		"categoryId": 5,
+		"trend": 0
+	},
+	{
+		"id": 31,
+		"name": "Vanilla Cone",
+		"price": 3.9,
+		"imageUrl": "images/desserts/Cornet_0.png",
+		"categoryId": 5,
+		"trend": 0
+	},
+	{
+		"id": 32,
+		"name": "Strawberry Shake",
+		"price": 3.9,
+		"imageUrl": "images/desserts/Shake_capsuni.webp",
+		"categoryId": 5,
+		"trend": 0
+	}
+]

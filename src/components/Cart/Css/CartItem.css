@@ -1,0 +1,47 @@
+.qty {
+	display: inline-block;
+	padding: 7px;
+	line-height: 1em;
+}
+input.qty {
+	z-index: 2;
+	padding: 0;
+	width: 20px;
+	border: none;
+	background: none;
+}
+.qty-minus {
+	margin-right: 5px;
+}
+.qty-plus {
+	margin-left: 5px;
+}
+input::-webkit-inner-spin-button {
+	display: none;
+	margin: 0;
+}
+
+.action-buttons {
+	font-size: 18px;
+	cursor: pointer;
+	margin-left: 12px;
+}
+
+.quantity-left {
+	margin-left: 13px;
+}
+
+.cart-item-bs {
+	padding-top: 2rem !important;
+}
+
+.cart-box {
+	padding-top: 8px;
+}
+.cart-box-price {
+	padding-top: 35px !important;
+}
+.delete-icon {
+	padding-top: 10px !important;
+	cursor: pointer;
+}

@@ -1,0 +1,23 @@
+[
+	{
+		"id": 33,
+		"name": "Coca-Cola®",
+		"price": 1.2,
+		"imageUrl": "images/trends/Cola-250-ml_1.webp",
+		"trend": 1
+	},
+	{
+		"id": 34,
+		"name": "Sprite®",
+		"price": 1,
+		"imageUrl": "images/trends/Sprite-250-ml_0.webp",
+		"trend": 1
+	},
+	{
+		"id": 35,
+		"name": "Fanta® Orange",
+		"price": 2,
+		"imageUrl": "images/trends/Fanta-250-ml_0.webp",
+		"trend": 1
+	}
+]

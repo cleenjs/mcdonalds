@@ -1,0 +1,23 @@
+.back-to-menu {
+	cursor: pointer;
+	font-size: 18px;
+}
+.heading-text h1 {
+	font-weight: 900;
+}
+
+.header-top {
+	padding-top: 15px;
+}
+
+.col-back {
+	color: black !important;
+	font-weight: 800;
+	font-size: 20px;
+	display: flex !important;
+	flex-direction: row !important;
+}
+
+.back-to-text {
+	padding-left: 12px;
+}

@@ -1,0 +1,8 @@
+[
+	{ "id": 6, "name": "All" },
+	{ "id": 1, "name": "Burgers" },
+	{ "id": 2, "name": "Breakfast" },
+	{ "id": 3, "name": "Chicken & Sandwiches" },
+	{ "id": 4, "name": "Combo Meal" },
+	{ "id": 5, "name": "Desserts & Shakes" }
+]

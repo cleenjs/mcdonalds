@@ -1,0 +1,24 @@
+.total {
+	background-color: #f2f2f2;
+	border-radius: 5px;
+}
+.form-control {
+	background-color: transparent !important;
+}
+.btn-outline-warning {
+	color: #000 !important;
+}
+.name p {
+	color: #777;
+}
+.amount p {
+	color: #777;
+}
+
+.coupon-name {
+	color: green !important;
+}
+
+.coupon-width {
+	width: 130%;
+}

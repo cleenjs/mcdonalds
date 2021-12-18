@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from "react";
+import { useSelector } from "react-redux";
+import { Route, Routes } from "react-router-dom";
+import Products from "./components/Products/Main/Main";
+import Orders from "./components/Orders/Main/Main";
+import "./App.css";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	const cart = useSelector(state => state.cart.items);
+	const totalQuantity = useSelector(state => state.cart.totalQuantity);
+	const totalPrice = useSelector(state => state.cart.totalPrice);
+
+	useEffect(() => {
+		localStorage.setItem("cart", JSON.stringify(cart));
+		localStorage.setItem("totalQuantity", JSON.stringify(totalQuantity));
+		localStorage.setItem("totalPrice", JSON.stringify(totalPrice));
+		localStorage.setItem("coupon", JSON.stringify(false));
+	}, [totalPrice]);
+
+	return (
+		<Routes>
+			<Route path="/" element={<Products />} />
+			<Route path="/checkout" element={<Orders />} />
+		</Routes>
+	);
 }
 
 export default App;
